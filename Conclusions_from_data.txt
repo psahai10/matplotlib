@@ -1,0 +1,15 @@
+With the current assignment we are anlyzing data from Pyber, a car ride-sharing service.
+
+With our first graph, we make a scatter plot showing the relationship between the total number of rides and average fare, in a urban, suburban, or rural 
+city environment. Each dot in the graph represents a specific city, and its circle size directly relates to how many drivers are there per city. With this scatter plot we can 
+appreciate several trends: First, there is an inverse correlation between the number of drivers and the average fare: the lower the number of drivers the higher
+the average fare is (showing a relationship between supply and demand; however, this relationship could also be attributed to total distance traveled since urban 
+passengers might travel for longer distances, information that we don't get with our dataset.) We can also see that there are overall less drivers in rural places; 
+and as population density increases, there is an increase in total number of drivers per city (circle size). Lastly, there are few ouliers, which we can't understand with
+our current data set, but would be interesting to analyze with additional information to why they are outliers (ie. total_distance_traveled/ride).
+
+Next, we make three pie charts comparing the overall distribution of urban, suburban, and rural cities for: a) percent of total fares, b) total rides by city type, and c) 
+total drivers by city type. With these pie charts we can appreciate that urban and suburban city types take 93% or more of total fares (68% for Urban and 26% for suburban 
+city types) and total rides. However, the piechart providing the percentage of total drivers show that 81% of drivers reside in urban environments. I interpret this data 
+as suburban  drivers obtaining a higher percentage of total fares and total rides, with comparably less drivers than urban environments. I would have also liked to see
+in this data set the average number of hours put by each driver in urban, suburban and rural city types.
